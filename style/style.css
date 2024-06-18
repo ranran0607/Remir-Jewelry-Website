@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --primary: #F2E6D8;
+    --darkcolor: #A68A68;
+    --lightcolor: #D9C6B0;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: var(--primary);
+}
+
+
+/* Start of Heading style/css */
+ .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-leftlist{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 100px;
+}
+.navbar-rightlist{
+    display: flex;
+    padding: 10px;
+    position: relative;
+    right: 100px;
+    gap: 20px;
+}
+.logo-name{
+    padding: 0.4rem 1.2rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.logo-name, a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-name:hover{
+    opacity: 0.5;
+    transition-duration: 0.7s;
+}
+.owner-name{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+
+.navbar-centerlist li{
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-centerlist p{
+    padding: 10px;
+}
+.navbar-centerlist a{
+    text-decoration: none;
+    padding: 0px 25px;
+    color: black;
+}
+.navbar-centerlist a:hover{
+    color: var(--darkcolor);
+    transition-duration: .6s;
+}
+.navbar-rightlist .btn1 {
+    margin: 0px 10px
+}
+.navbar-rightlist ,a{
+    text-decoration: none;
+    color: #fcfcfc;
+    padding: 0px 15px;
+}
+.btn-login{
+    padding: 10px 15px;
+    background-color: #A68A68;
+    color: #ffffff;
+    border: none;
+}
+.btn-login:hover{
+    color: var(--darkcolor);
+    background-color: #ffffff;
+    transition-duration: 0.4s;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #A68A68;
+}
+.btn-signup{
+    padding: 10px 15px;
+    background-color: #A68A68;
+    color: #ffffff;
+    border: none;
+}
+.btn-signup:hover{
+    color: var(--darkcolor);
+    background-color: #ffffff;
+    transition-duration: 0.4s;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #A68A68;
+}
+.navbar-leftlist img {
+    padding-right: 10px;
+}
+.model{
+    height: 60rem;
+    width: auto;
+}
+
+.model{
+    background: url(../img/mainmodel.jpg) no-repeat right top;
+    background-size: 1200px;
+
+}
+.frst-content{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+.tag-line h1{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    position: absolute;
+    top: 12rem;
+    left: 8rem;
+}
+
+.tag-line p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 28rem;
+    left: 8rem;
+    line-height: 1.5rem;
+}
+.btn-explorenow {
+    background-color: #A68A68;
+    padding: 1.3rem;
+    position: absolute;
+    top: 32.5rem;
+    left: 8rem;
+    border-radius: 2rem 2rem;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.btn-explorenow a{
+    text-decoration: none;
+    color:  #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 1.5rem;
+}
+.btn-explorenow:hover{
+    color: var(--darkcolor);
+    background-color: #ffffff;
+    transition-duration: 0.4s;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var(--darkcolor);
+}
+.btn-explorenow, a:hover{
+    color: var(--darkcolor);
+    transition-duration: 0.7s;
+}
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 5rem;
+}
+.service{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.descriptions{
+    margin: 5px 10px;
+
+}
+.icon{
+    border-left: solid;
+    color: var(--lightcolor);
+    padding-left: 60px;
+}
+.icon-free-shipping {
+    border: none;
+}
+.descriptions{
+    line-height: 1.5;
+    padding-left: 10px;
+}
+.descriptions ,h4,p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+/* Ending  header */
+
+/* Start -- Main content */
+.main-cnt-title{
+    font-family: "Dancing Script", cursive;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 2px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+.main-contents{
+    position: relative;
+    height: 1050px;
+    width: auto;
+}
+.main-content{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.prod-name{
+    display: flex;
+    justify-content: column;
+}
+.prod-name{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-name, p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    padding: 5px 1px;
+}
+.btn-view{
+    display: flex;
+    justify-content: center;
+}
+.btn-view, button{
+    margin: 10px;
+    padding: 15px;
+}
+.btn-view-all{
+    background-color: #A68A68;
+    border-style: none;
+    border-radius: 2rem;
+
+}
+.btn-view-all:hover{
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 2rem;
+    transition-duration: 0.4s;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #A68A68;
+
+}
+.btn-view, button, a{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--primary);
+    
+}
+
+
+/* Ending -- Main content */
+
+/* Start -- Second content about Trending designs */
+.trend-contents{
+    height: 1150px;
+    width: auto;
+}
+
+.trend-designs-title{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    padding: 10px;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+.trend-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.trend {
+    padding: 5px;
+    margin: 5px;
+}
+.trend-content{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.trctt-blur{
+    color: #929292;
+    -webkit-text-decoration: line-through;
+    text-decoration: line-through;
+}
+
+/* Ending -- Second content about Trending designs */
+
+
+/* Starting point for Discount Content Styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .discounts-content{
+    position: relative;
+}
+.disc-descriptions{
+    display: block;
+    justify-content: space-around;
+
+}
+ .disc-descriptions{
+    background-color: black;
+    height: 800px;
+    width: auto;
+}
+
+.disc-descriptions{
+    color: #ffffff;
+    text-align: left;
+}
+.disc-descrip-content{
+    position: absolute;
+}
+.disc-descript{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.disc-descript{
+    display: flex;
+    justify-content: space-between;
+}
+.disc-title{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    max-width: 600px;
+}
+.disc-description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.6;
+    max-width: 600px;
+}
+.disc-descrip-content{
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 40px;
+}
+.img-promoted-discount{
+    height: 600px;
+    width: 600px;
+} */
+/* Ending point for Discount Content Styling */
+
+
